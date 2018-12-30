@@ -1,7 +1,7 @@
 const { Client, Pool } = require('pg');
 
 const pool = new Pool({
-  host: 'ec2-54-67-42-192.us-west-1.compute.amazonaws.com',
+  host: '54.67.42.192',
   database: 'travelinn-header',
   port: 5432,
   username: 'power_user',

@@ -1,4 +1,6 @@
-require('newrelic');
+// require('newrelic');
+const React = require('react');
+const ReactDOM = require('react-dom');
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
